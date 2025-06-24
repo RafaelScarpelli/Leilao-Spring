@@ -9,6 +9,7 @@ import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.stereotype.Service;
 
+import com.github.RafaelScarpelli.backend.exception.BusinessException;
 import com.github.RafaelScarpelli.backend.exception.NotFoundException;
 import com.github.RafaelScarpelli.backend.model.Pessoa;
 import com.github.RafaelScarpelli.backend.repository.PessoaRepository;
